@@ -1,0 +1,8 @@
+# User interface
+streamlit
+
+# MySQL database connectivity
+mysql-connector-python
+
+# IANA time-zone data for reliable zoneinfo support, especially on Windows
+tzdata
