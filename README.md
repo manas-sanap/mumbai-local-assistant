@@ -291,7 +291,7 @@ Train names can contain service-specific information such as:
 
 These labels are stored as part of the train information so the timetable can distinguish different services.
 
-Holiday/day-specific operating rules and more comprehensive special-service handling can be expanded as the timetable coverage grows.
+Sunday/holiday-restricted trains (e.g. `Not on Sunday & Holiday`) are already filtered out by the current logic, and AC services are deprioritized in ranking by default. More comprehensive special-service handling can be expanded as the timetable coverage grows.
 
 ---
 
@@ -458,7 +458,6 @@ Add:
 - Delay information
 - Cancellations
 - Better day-specific timetable handling
-- Holiday-aware service availability
 - More robust special-train rules
 
 ### Phase 3 — Other Mumbai suburban lines
